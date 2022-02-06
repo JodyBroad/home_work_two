@@ -1,6 +1,12 @@
 # PIN numbers extra
+# Joint - Jody & Isabel
 
 import getpass
+
+# with get pass you need to add prompt= before then input prompt
+# open this in terminal
+# terminal will not display input values with asterisk but instead will be blank
+# if you complete the program, then re-enter the file 'pin_numbers_extra.py' to run other options.
 
 # putting the number in "" means it is already a string, so we can match it with the input
 pin_number = "1234"
@@ -28,3 +34,5 @@ while attempt <= max_attempts:
                 print("You have reached the maximum number of attempts and you account is now locked")
              # failure condition met, so can exit the loop
                 break
+
+#
