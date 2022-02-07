@@ -1,4 +1,4 @@
-# PIN numbers
+# PIN
 # not sure how to simplify this further than this!
 
 # putting the number in "" means it is already a string, so we can match it with the input
@@ -22,5 +22,6 @@ while attempt <= max_attempts:
         else:
             if attempt >= max_attempts:
                 print("You have reached the maximum number of attempts and you account is now locked")
-             # failure condition met, so can exit the loop
+                # failure condition met, so can exit the loop
                 break
+                
